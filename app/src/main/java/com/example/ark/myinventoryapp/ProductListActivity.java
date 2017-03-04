@@ -67,8 +67,8 @@ public class ProductListActivity extends AppCompatActivity implements LoaderMana
         Uri uri = Uri.parse("android.resource://com.example.ark.myinventoryapp/drawable/murukku");
         String image_path = uri.toString().trim();
         ContentValues values = new ContentValues();
-        values.put(ProductContract.ProductEntry.COLUMN_PRODUCT_NAME, "Murukku");
-        values.put(ProductContract.ProductEntry.COLUMN_PRODUCT_PRICE, 50);
+        values.put(ProductContract.ProductEntry.COLUMN_PRODUCT_NAME, "3 Stone Princess Cut Diamond Ring");
+        values.put(ProductContract.ProductEntry.COLUMN_PRODUCT_PRICE, 100000);
         values.put(ProductContract.ProductEntry.COLUMN_PRODUCT_QUANTITY, 5);
         values.put(ProductContract.ProductEntry.COLUMN_PRODUCT_IMAGE, image_path);
         values.put(ProductContract.ProductEntry.COLUMN_SUPPLIER_NBR, "9898989898");
